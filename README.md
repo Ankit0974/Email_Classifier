@@ -13,6 +13,7 @@ This project trains a `MultinomialNB` classifier on email data to detect spam me
 - Naive Bayes classification model
 - Model persistence using pickle
 - Prediction function for new emails
+- Dataset Link:- https://www.kaggle.com/code/azzayahia/email-spam?select=spam.csv
 
 ## Project Structure
 
@@ -68,6 +69,11 @@ prediction = model.predict(cleaned_text)
 ## Model Performance
 
 The classifier achieves high accuracy on the test set with balanced precision and recall for both spam and legitimate emails.
+Metric	      Value
+Accuracy  ->  97.40%
+Precision ->  100.00%
+Recall	  ->  80.67%
+F1 Score	->  89.30%
 
 ## Dependencies
 
