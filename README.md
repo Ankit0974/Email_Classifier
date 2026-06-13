@@ -2,6 +2,8 @@
 
 A machine learning project that classifies emails as spam or legitimate using Naive Bayes and TF-IDF vectorization.
 
+# Live App:- https://email-classifier-p5uv.onrender.com/
+
 ## Overview
 
 This project trains a `MultinomialNB` classifier on email data to detect spam messages. It uses scikit-learn for model training and includes both a Python training script and Jupyter notebook for experimentation.
